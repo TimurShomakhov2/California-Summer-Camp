@@ -1,7 +1,7 @@
 /* Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-
+/* Global styles */
 
 body {
     font-family: "Inter", sans-serif;
@@ -11,6 +11,12 @@ body {
 h1 {
     font-family: "Inter", sans-serif;
     color: blueviolet;
+    text-transform: uppercase;
+}
+
+.section {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 /* Navbar */
@@ -20,6 +26,12 @@ h1 {
 
 #navbar .logo {
     width: 150px;
+}
+
+/* Header */
+
+#header .lead {
+    font-family: "Inter", sans-serif;
 }
 
 /* Grid visualisation CSS for testing */
