@@ -23,12 +23,77 @@
 
 <body class="d-flex flex-column min-vh-100">
     <!-- Navigation -->
-    <div>Navigation</div>
+    <nav id="navbar" class="navbar navbar-expand-lg" data-bs-theme="dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/images/California Summer Camp Logo.PNG" alt="California Summer Camp logo" class="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="about-us.html">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Dates & Rates</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" aria-disabled="true">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-    <header class="container">
+    <header id="header" class="container section">
         <div class="row">
-            <div class="col-12 col-xl-6">California Camp intro text section</div>
-            <div class="col-12 col-xl-6">More</div>
+            <div class="col-12 col-xl-6 text-center text-xl-start">
+                <h1 class="display-3">About us</h1>
+                <p class="lead display-6 sub-heading-color">Learn more about activities.</p>
+                    <p class="my4">From its earliest days, Friendly Pines Camp has been a fun place where boys and girls could learn. Friendly Pines, however, strives to be very unlike school. The classroom is our vast mountain forest, and the learning comes from doing. Much can be discovered about one’s own nature by gazing into a night sky of a billion stars.
+
+                        A simple camp-out teaches the lessons of teamwork. Caring for animals or working on an art project develops patience. And sharing a space and time with friends, inspires a sense of community and compromise.
+                        
+                        The Friendly Pines Camp program offers a non-competitive program of over 30 activities. After campers select eight hours of activities in which they wish to participate, a personalized schedule is created for each.
+                        
+                        It is an integral part of the Friendly Pines’ philosophy to have the campers pick a limited number of activities they really want and allow them to participate in the same activities repeatedly, thus developing skills and confidence.  This approach is in opposition to a program that has campers try everything but maybe only once. We believe that campers will have the most fun and learn the most when they are doing what they want.
+                        
+                        Many of our activities are offered on elementary, intermediate, and advanced level. This allows each camper to participate at a level best suited to his or her skill and experience. On arrival day, certain activities will hold placements. So if a camper has experience in a certain activity, they are encouraged to try out for a higher level!
+                        
+                        Our qualified instructors utilize lesson plans that have been developed over 80 years of experience. Staff are encouraged, however, to be innovative and to keep pace with new technologies and techniques.
+                        
+                        The Friendly Pines program is also guided by standards of safety and content developed by the American Camping Association, the accrediting body of which Friendly Pines is proud to be a part.</p>
+            </div>
+            <div class="col-12 col-xl-6">
+                <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="assets/images/Josh and Zoey.jpg" class="d-block w-100" alt="Children">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="assets/images/Tennix.jpg" class="d-block w-100" alt="Fencing Club">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="assets/images/Jordan.jpg" class="d-block w-100" alt="Tennis">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </div>
+            
         </div>
     </header>
 
