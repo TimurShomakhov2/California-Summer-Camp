@@ -1,4 +1,5 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+![California Summer Camp Logo](https://github.com/user-attachments/assets/eb8ec6fb-8212-45f1-a4c5-8d9a29662842)
+
 
 Welcome Timur Shomakhov,
 
